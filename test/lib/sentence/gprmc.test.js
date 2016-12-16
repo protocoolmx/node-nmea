@@ -2,11 +2,12 @@
 
 const assert = require('assert');
 const GPRMC = require('../../../lib/sentence/gprmc');
+const sentences = require('../../fixtures/getSentences');
 
 describe('GPRMC', function() {
 
   let gprmc;
-  let inputTest = '$GPRMC,180605.0,A,2905.099584,N,11058.190134,W,0.0,,161216,0.0,E,A*34';
+  let inputTest = sentences.RMC[0];
 
   before('create GPRMC instance with test input', function() {
     gprmc = new GPRMC(inputTest);
