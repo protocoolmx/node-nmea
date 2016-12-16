@@ -1,0 +1,24 @@
+{
+  "name": "node-nmea",
+  "version": "0.1.0",
+  "description": "Decoder for NMEA sentences.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protocoolmx/node-nmea.git"
+  },
+  "keywords": [
+    "decoder",
+    "nmea",
+    "gps"
+  ],
+  "author": "Protocool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/protocoolmx/node-nmea/issues"
+  },
+  "homepage": "https://github.com/protocoolmx/node-nmea#readme"
+}
