@@ -4,7 +4,7 @@
   "description": "Decoder for NMEA sentences.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/**/*.test.js"
+    "test": "./node_modules/mocha/bin/mocha test/lib/**/*.test.js"
   },
   "repository": {
     "type": "git",
