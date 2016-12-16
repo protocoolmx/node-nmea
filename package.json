@@ -1,5 +1,5 @@
 {
-  "name": "node-nmea",
+  "name": "nmea-decoder",
   "version": "0.1.0",
   "description": "Decoder for NMEA sentences.",
   "main": "index.js",
