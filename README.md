@@ -1,11 +1,14 @@
 # node-nmea
+
+[![npm version](https://badge.fury.io/js/nmea-decoder.svg)](https://badge.fury.io/js/nmea-decoder)
+
 Decoder for NMEA Sentences.
 
 NMEA Sentences supported
 
 * RMC
 
-## Install 
+## Install
 
 ```
 $ npm install nmea-decoder --save
