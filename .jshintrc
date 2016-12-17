@@ -1,0 +1,77 @@
+{
+
+  //////////////////////////////////////////////////////////////////////////////
+  // This option suppresses warnings about the use of eval. The use of eval is
+  // discouraged because it can make your code vulnerable to various injection
+  // attacks and it makes it hard for JavaScript interpreter to do certain
+  // optimizations.
+  "evil": true,
+  //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
+  // This option defines globals available when your code is running inside of
+  // the Node runtime environment. Node.js is a server-side JavaScript
+  // environment that uses an asynchronous event-driven model. This option also
+  // skips some warnings that make sense in the browser environments but don't
+  // make sense in Node such as file-level use strict pragmas and console.log
+  // statements.
+  "node": true,
+  //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
+  // This option suppresses warnings about the use of expressions where normally
+  // you would expect to see assignments or function calls. Most of the time,
+  // such code is a typo. However, it is not forbidden by the spec and that's
+  // why this warning is optional.
+  "expr": true,
+  //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
+  // This option suppresses warnings about functions inside of loops. Defining
+  // functions inside of loops can lead to bugs.
+  "loopfunc": false,
+  //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
+  // This option enforces the consistency of quotation marks used throughout
+  // your code. It accepts three values `true` if you don't want to enforce one
+  // particular style but want some consistency, 'single' if you want to allow
+  // only single quotes and 'double' if you want to allow only double quotes.
+  "quotmark": "single",
+  //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
+  // This option suppresses warnings about == null comparisons. Such comparisons
+  // are often useful when you want to check if a variable is null or undefined.
+  "eqnull": false,
+  //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
+  // This option requires you to always put curly braces around blocks in loops
+  // and conditionals. JavaScript allows you to omit curly braces when the block
+  // consists of only one statement, for example
+  "curly": true,
+  //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
+  // This options prohibits the use of == and != in favor of === and !==. The
+  // former try to coerce values before comparing them which can lead to some
+  // unexpected results. The latter don't do any coercion so they are generally
+  // safer. If you would like to learn more about type coercion in JavaScript,
+  // we recommend Truth, Equality and JavaScript by Angus Croll.
+  "eqeqeq": true,
+  //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
+  // This option is used to specify the ECMAScript version to which the code
+  // must adhere. 6 To tell JSHint that your code uses ECMAScript 6 specific
+  // syntax.
+  "esversion": 6,
+  //////////////////////////////////////////////////////////////////////////////
+
+  //////////////////////////////////////////////////////////////////////////////
+  // Ignore all not defined warnings.
+  "-W117": false
+  //////////////////////////////////////////////////////////////////////////////
+
+}
