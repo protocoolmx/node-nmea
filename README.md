@@ -27,12 +27,12 @@ let result = nmea.gprmc('$GPRMC,180605.0,A,2905.099584,N,11058.190134,W,0.0,,161
 // {
 //   timestamp: 180605,
 //   status: 'A',
-//   latitude: 29.05099584,
+//   latitude: 29.084993066666666,
 //   ns: 'N',
-//   longitude: 110.58190134,
+//   longitude: -110.96983556666666,
 //   ew: 'W',
 //   speed: 0,
-//   dateStamp: 161216,
+//   datestamp: 161216,
 //   variation: 0,
 //   vew: 'E',
 //   checksum: '34'
@@ -51,7 +51,7 @@ let result = nmea.gprmc('$GPRMC,180605.0,A,2905.099584,N,11058.190134,W,0.0,,161
 * `ew` (string) : e=East, w=West.
 * `speed` (number) : Speed over ground in knots.
 * `trueCourse` (number) : Track made good in degrees True.
-* `dateStamp` (number) : UT Date.
+* `datestamp` (number) : UT Date.
 * `variation` (number) : Magnetic variation degrees (Easterly var. subtracts from true course).
 * `vew` (string) : e=East, w=West.
 * `checksum` (string) : Checksum.
