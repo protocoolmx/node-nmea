@@ -1,6 +1,6 @@
 {
   "name": "nmea-decoder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Decoder for NMEA sentences.",
   "main": "index.js",
   "scripts": {
